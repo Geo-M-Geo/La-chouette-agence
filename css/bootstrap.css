@@ -2011,7 +2011,7 @@ pre code {
     margin-left: auto
 }
 
-.row {
+.partenaires {
     margin-right: -15px;
     margin-left: -15px
 }
@@ -3225,7 +3225,7 @@ input[type=search] {
     }
 }
 
-.form-group {
+.contact-details__form {
     margin-bottom: 15px
 }
 
@@ -3331,7 +3331,7 @@ textarea.input-sm {
     height: auto
 }
 
-.form-group-sm .form-control {
+.contact-details__form-sm .form-control {
     height: 30px;
     padding: 5px 10px;
     font-size: 12px;
@@ -3339,17 +3339,17 @@ textarea.input-sm {
     border-radius: 3px
 }
 
-.form-group-sm select.form-control {
+.contact-details__form-sm select.form-control {
     height: 30px;
     line-height: 30px
 }
 
-.form-group-sm select[multiple].form-control,
-.form-group-sm textarea.form-control {
+.contact-details__form-sm select[multiple].form-control,
+.contact-details__form-sm textarea.form-control {
     height: auto
 }
 
-.form-group-sm .form-control-static {
+.contact-details__form-sm .form-control-static {
     height: 30px;
     min-height: 32px;
     padding: 6px 10px;
@@ -3375,7 +3375,7 @@ textarea.input-lg {
     height: auto
 }
 
-.form-group-lg .form-control {
+.contact-details__form-lg .form-control {
     height: 46px;
     padding: 10px 16px;
     font-size: 18px;
@@ -3383,17 +3383,17 @@ textarea.input-lg {
     border-radius: 6px
 }
 
-.form-group-lg select.form-control {
+.contact-details__form-lg select.form-control {
     height: 46px;
     line-height: 46px
 }
 
-.form-group-lg select[multiple].form-control,
-.form-group-lg textarea.form-control {
+.contact-details__form-lg select[multiple].form-control,
+.contact-details__form-lg textarea.form-control {
     height: auto
 }
 
-.form-group-lg .form-control-static {
+.contact-details__form-lg .form-control-static {
     height: 46px;
     min-height: 38px;
     padding: 11px 16px;
@@ -3422,7 +3422,7 @@ textarea.input-lg {
     pointer-events: none
 }
 
-.form-group-lg .form-control+.form-control-feedback,
+.contact-details__form-lg .form-control+.form-control-feedback,
 .input-group-lg+.form-control-feedback,
 .input-lg+.form-control-feedback {
     width: 46px;
@@ -3430,7 +3430,7 @@ textarea.input-lg {
     line-height: 46px
 }
 
-.form-group-sm .form-control+.form-control-feedback,
+.contact-details__form-sm .form-control+.form-control-feedback,
 .input-group-sm+.form-control-feedback,
 .input-sm+.form-control-feedback {
     width: 30px;
@@ -3559,7 +3559,7 @@ textarea.input-lg {
 }
 
 @media (min-width:768px) {
-    .form-inline .form-group {
+    .form-inline .contact-details__form {
         display: inline-block;
         margin-bottom: 0;
         vertical-align: middle
@@ -3623,7 +3623,7 @@ textarea.input-lg {
     min-height: 27px
 }
 
-.form-horizontal .form-group {
+.form-horizontal .contact-details__form {
     margin-right: -15px;
     margin-left: -15px
 }
@@ -3641,14 +3641,14 @@ textarea.input-lg {
 }
 
 @media (min-width:768px) {
-    .form-horizontal .form-group-lg .control-label {
+    .form-horizontal .contact-details__form-lg .control-label {
         padding-top: 14.33px;
         font-size: 18px
     }
 }
 
 @media (min-width:768px) {
-    .form-horizontal .form-group-sm .control-label {
+    .form-horizontal .contact-details__form-sm .control-label {
         padding-top: 6px;
         font-size: 12px
     }
@@ -5306,7 +5306,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 @media (min-width:768px) {
-    .navbar-form .form-group {
+    .navbar-form .contact-details__form {
         display: inline-block;
         margin-bottom: 0;
         vertical-align: middle
@@ -5357,10 +5357,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 @media (max-width:767px) {
-    .navbar-form .form-group {
+    .navbar-form .contact-details__form {
         margin-bottom: 5px
     }
-    .navbar-form .form-group:last-child {
+    .navbar-form .contact-details__form:last-child {
         margin-bottom: 0
     }
 }
@@ -7753,8 +7753,8 @@ button.close {
 .container:before,
 .dl-horizontal dd:after,
 .dl-horizontal dd:before,
-.form-horizontal .form-group:after,
-.form-horizontal .form-group:before,
+.form-horizontal .contact-details__form:after,
+.form-horizontal .contact-details__form:before,
 .modal-footer:after,
 .modal-footer:before,
 .nav:after,
@@ -7769,8 +7769,8 @@ button.close {
 .pager:before,
 .panel-body:after,
 .panel-body:before,
-.row:after,
-.row:before {
+.partenaires,.row:after,
+.partenaires,.row:before {
     display: table;
     content: " "
 }
@@ -7781,7 +7781,7 @@ button.close {
 .container-fluid:after,
 .container:after,
 .dl-horizontal dd:after,
-.form-horizontal .form-group:after,
+.form-horizontal .contact-details__form:after,
 .modal-footer:after,
 .nav:after,
 .navbar-collapse:after,
@@ -7789,7 +7789,7 @@ button.close {
 .navbar:after,
 .pager:after,
 .panel-body:after,
-.row:after {
+.partenaires,.row:after {
     clear: both
 }
 

@@ -277,8 +277,8 @@ a:hover {
     margin-left: 0;
 }
 
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
+.partenaires.row-no-gutters > [class^="col-"],
+.partenaires.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
 }
@@ -913,7 +913,7 @@ h4 {
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
-    .navbar.row {
+    .navbar.partenaires {
         margin-left: 0;
         margin-right: 0;
     }
@@ -1079,7 +1079,25 @@ h4 {
 .contact-details {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 230px;
     font-size: 1.1em;
+}
+
+.partenaires {
+    margin: auto;
+}
+
+.partenaires h2 {
+    color: white!important;
+}
+
+.partenaires ul {
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partenaires li {
+    padding-right: 30px;
 }
