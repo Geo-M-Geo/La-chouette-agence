@@ -1090,14 +1090,52 @@ h4 {
 
 .partenaires h2 {
     color: white!important;
+    text-align: center;
 }
 
 .partenaires ul {
     padding-left: 30px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+@media all and (min-width:375px) {
+    .partenaires ul {  
+        flex-direction: inherit;
+        flex-wrap: wrap;
+    }
 }
 
 .partenaires li {
     padding-right: 30px;
+    list-style: none;
+}
+
+.partenaires a {
+    font-size: 1.2em;
+    color: #0B0B0B!important;
+}
+
+@media all and (min-width:620px) {
+    .partenaires li {
+        padding-right: 60px;
+    }
+}
+
+.footer-title {
+    color: white!important;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 300px;
+    margin: auto;
+}
+
+.social-media__icone span {
+    color: white!important;
 }
