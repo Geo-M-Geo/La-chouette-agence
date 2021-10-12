@@ -810,19 +810,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("images/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("images/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("images/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("images/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -1072,8 +1072,20 @@ h4 {
 
 .portfolio__title {
     max-width: 460px;
-    margin:auto;
+    margin: auto;
     text-align: center;
+}
+
+.row img {
+    margin: auto;
+}
+
+.row h3 {
+    font-size: 1.2em;
+}
+
+.row p {
+    font-size: 1.2em;
 }
 
 .contact-details {
@@ -1107,8 +1119,9 @@ h4 {
 }
 
 .partenaires li {
-    padding-right: 30px;
+    padding-right: 15px;
     list-style: none;
+    text-align: center;
 }
 
 .partenaires a {
