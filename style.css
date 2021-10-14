@@ -90,11 +90,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -775,7 +770,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3976A!important;
 }
 
 .btn-atomic-tangerine {
@@ -1043,6 +1038,16 @@ h4 {
 
 /* Changes for the accesibiliy and the SEO  */
 
+.nav li {
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+
+
 
 .title-explanation h2 {
     max-width: 640px;
@@ -1152,3 +1157,18 @@ h4 {
 .social-media__icone span {
     color: white!important;
 }
+
+/* Contact page */
+
+.header-contact-info {
+    margin: auto;
+}
+
+.info h1{
+    text-align: center;
+}
+
+.info p {
+    text-align: center;
+}
+
