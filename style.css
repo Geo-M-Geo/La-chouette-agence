@@ -1172,3 +1172,6 @@ h4 {
     text-align: center;
 }
 
+.footer {
+    max-width: 100%!important;
+}
