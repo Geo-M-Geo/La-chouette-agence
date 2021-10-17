@@ -1037,13 +1037,18 @@ h4 {
 }
 
 /* Changes for the accesibiliy and the SEO  */
+.navbar ul {
+    border-top:none!important;
+}
 
 .nav li {
     list-style: none;
+    border: none!important;
 }
 
 .nav a {
     text-decoration: none;
+    background-color: white!important;
 }
 
 
@@ -1091,14 +1096,6 @@ h4 {
 
 .row p {
     font-size: 1.2em;
-}
-
-.contact-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 230px;
-    font-size: 1.1em;
 }
 
 .partenaires {
@@ -1174,4 +1171,28 @@ h4 {
 
 .footer {
     max-width: 100%!important;
+}
+
+
+/* Page contact */
+
+.bloc-info-contact {
+    max-width: 1500px;
+}
+
+.contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between!important;
+    max-height: 1000px;
+    font-size: 1.1em;
+}
+
+.contact-details__form {
+    margin-right: 20px!important;
+}
+
+.contact-details__form {
+    display: flex;
+    flex-direction: column;
 }

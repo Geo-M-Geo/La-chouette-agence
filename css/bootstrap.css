@@ -5240,7 +5240,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     margin-top: 4px
 }
 
-@media (min-width:500px) {
+@media (min-width:768px) {
     .navbar-toggle {
         display: none
     }
@@ -5447,9 +5447,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-brand:hover {
     color: #5e5e5e;
     background-color: transparent
-}
+} */
 
-.navbar-default .navbar-text {
+/* .navbar-default .navbar-text {
     color: #777
 }
 
@@ -5461,9 +5461,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-nav>li>a:hover {
     color: #333;
     background-color: transparent
-}
+} */
 
-.navbar-default .navbar-nav>.active>a,
+/* .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
     color: #555;
@@ -5486,9 +5486,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
     background-color: #ddd
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+/* .navbar-default .navbar-toggle .icon-bar {
     background-color: #888
-}
+} */
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
