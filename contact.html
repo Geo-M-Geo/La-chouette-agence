@@ -7,8 +7,8 @@
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
 	<script src="./js/jquery-2.1.0.js"></script>
@@ -72,11 +72,11 @@
 					<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">				
 						<div class="contact-details">
 							<div class="contact-details__form">
-								<label for="name">Nom</label>						
+								<label for="name">Nom : </label>						
 								<input name="name" id="name" required />
 							</div>
 							<div class="contact-details__form">
-								<label for="email">Adresse email</label>
+								<label for="email">Adresse email : </label>
 								<input name="email" id="email" type="email" required />
 							</div>
 							<div class="contact-details__form">
@@ -85,11 +85,11 @@
 							</div>
 							<div class="contact-details__form">
 								<label>
-									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" rows="4" cols="30" wrap="hard" required></textarea>
+									Brief de votre projet (Ajoutez autant de détails que nécessaire) : <br>
+								</label><textarea class="message" id="message" rows="4" cols="30" wrap="hard" required></textarea>
 							</div> 
 						</div>					
-						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+						<button class=" bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
 						</button>
 					</form>
@@ -99,7 +99,6 @@
 						contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 					</p>
 				</div>
-
 			</div>
 		</div>
 	</section>
@@ -110,32 +109,33 @@
 	<!-- ScrollToTop Button END-->
 
 	<!-- Footer -->
-	<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-		<div class="container bloc-sm row col-sm-12">
-			<p class="text-center white">
+	<footer class="footer bloc bgc-atomic-tangerine d-bloc row container bloc-sm" id="bloc-8">
+		<div class="col-sm-12">
+			<h2 class="footer-title">
 				La chouette agence - Agence web basée à Lyon.
-			</p>
-			<div class="row row-no-gutters social">
-				<div class="col-sm-3">
-					<div class="text-center">
-						<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
-					</div>
+			</h2>
+			<div class="social-media">
+				<div class="social-media__icone">
+					<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
 				</div>
-				<div class="col-sm-3">
-					<div class="text-center">
-						<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
-					</div>
+				<div class="social-media__icone">
+					<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
 				</div>
-				<div class="col-sm-3">
-					<div class="text-center">
-						<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
-					</div>
+				<div class="social-media__icone">
+					<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
 				</div>
-				<div class="col-sm-3">
-					<div class="text-center">
-						<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
-					</div>
+				<div class="social-media__icone">
+					<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 				</div>
+			</div>
+			<div class="partenaires">
+				<h2>Partenaires</h2>
+				<ul>
+					<li><a href="voiture.com">voiture.com</a></li>
+					<li><a href="pizza.com">pizza.com</a></li>
+					<li><a href="matoiture.com">matoiture.com</a></li>
+					<li><a href="immobilierseo.com">immobilierseo.com</a></li>
+				</ul>		
 			</div>
 		</div>
 	</footer>
