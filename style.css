@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -436,8 +436,7 @@ nav .caret {
 }
 
 .mg-lg {
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .btn {
@@ -804,14 +803,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("images/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("images/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("images/la-chouette-agence-banniere.jpg");
 }
@@ -862,7 +853,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .page-container,
+
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
@@ -890,7 +881,7 @@ h4 {
         position: relative;
     }
     h1,
-    h2,
+    h2
     h3,
     h4,
     h5,
@@ -1036,7 +1027,14 @@ h4 {
     }
 }
 
+
+
 /* Changes for the accesibiliy and the SEO  */
+
+/* Accueil page */
+
+/* Navigation bar */
+
 .navbar ul {
     border-top:none!important;
 }
@@ -1049,17 +1047,17 @@ h4 {
 .nav a {
     text-decoration: none;
     background-color: white!important;
+    font-weight:600;
 }
 
 
-
+/*  Section presentation */
 
 .title-explanation h2 {
     max-width: 640px;
     margin: auto;
     text-align: center;
     padding: 0 20px 0 20px !important;
-
 }
 
 .client-comment {
@@ -1080,6 +1078,9 @@ h4 {
     font-size: 1em;
 }
 
+
+/* Section portfolio */
+
 .portfolio__title {
     max-width: 460px;
     margin: auto;
@@ -1096,6 +1097,26 @@ h4 {
 
 .row p {
     font-size: 1.2em;
+}
+
+/* Footer */
+
+.footer-title {
+    color: white!important;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 300px;
+    margin: auto;
+}
+
+.social-media__icone span {
+    color: white!important;
 }
 
 .partenaires {
@@ -1137,23 +1158,6 @@ h4 {
     }
 }
 
-.footer-title {
-    color: white!important;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.social-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    max-width: 300px;
-    margin: auto;
-}
-
-.social-media__icone span {
-    color: white!important;
-}
 
 /* Contact page */
 
@@ -1171,10 +1175,7 @@ h4 {
 
 .footer {
     max-width: 100%!important;
-}
-
-
-/* Page contact */
+}s
 
 .bloc-info-contact {
     max-width: 1500px;
@@ -1188,6 +1189,13 @@ h4 {
     font-size: 1.1em;
 }
 
+@media all and (min-width:768px) {
+    .contact-details {
+        flex-wrap: nowrap;
+    }
+
+}
+
 .contact-details__form {
     margin-right: 20px!important;
 }
@@ -1195,4 +1203,19 @@ h4 {
 .contact-details__form {
     display: flex;
     flex-direction: column;
+}
+
+footer .container {
+    background-color: #F3976C;
+    max-width: 100%!important;
+}
+
+section .contact {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info p {
+    font-size: 1.5em;
 }
