@@ -653,7 +653,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 30px;
 }
 
 .hero-bloc-text-sub {
@@ -737,8 +737,7 @@ h4 {
     margin-bottom: 24px;
 }
 
-.portfolio-row {
-    margin-bottom: 44px;
+.portfolio-row { 
     margin-top: 50px;
 }
 
@@ -747,7 +746,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #F3976C;
+    border-radius: 20px;
     padding: 40px 40px 40px 40px;
 }
 
@@ -760,21 +760,21 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
+/* .bgc-dark-slate-blue {
     background-color: #364577;
-}
+} */
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
 
 .tc-white {
-    color: #F3976A!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1026,6 +1026,10 @@ h4 {
 
 /* Accueil page */
 
+.black {
+    color: black!important;
+}
+
 /* Navigation bar */
 
 .navbar ul {
@@ -1050,7 +1054,7 @@ h4 {
     max-width: 640px;
     margin: auto;
     text-align: center;
-    padding: 0 20px 0 20px !important;
+    padding: 0 20px 20px 20px !important;
 }
 
 .client-comment {
@@ -1108,7 +1112,7 @@ h4 {
 /* Footer */
 
 .footer-title {
-    color: white!important;
+    color: black!important;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -1130,7 +1134,7 @@ h4 {
 }
 
 .partenaires h2 {
-    color: white!important;
+    color: black!important;
     text-align: center;
 }
 
@@ -1158,6 +1162,10 @@ h4 {
     color: #0B0B0B!important;
 }
 
+.social-media__icone span {
+    color: black!important;
+}
+
 @media all and (min-width:620px) {
     .partenaires li {
         padding-right: 60px;
@@ -1171,6 +1179,21 @@ h4 {
 
 .header-contact-info {
     margin: auto;
+}
+
+/* Section introduction  */
+
+.logo-titre {
+    background-color: #EB9268;
+}
+
+.logo-titre h1 {
+    margin-top: 0!important;
+    padding-top: 20px;
+}
+
+.logo-titre img {
+    padding-bottom: 20px;
 }
 
 /* Section info */
@@ -1206,6 +1229,11 @@ h4 {
     margin: auto;
 }
 
+.button-contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 @media all and (min-width:748px) {
 
@@ -1235,5 +1263,19 @@ footer .container {
     padding-top: 40px;
 }
 
+.contact-team {
+    color: black!important;
+    font-weight: 700!important;
+}
 
+/* .logo-titre{
+    background-color: #F3976C;
+    border-radius: 20px;
+} */
 
+/* .button-contact {
+    background-color: #9B9999;
+    border-radius: 15px;
+    max-width: 420px;
+    margin: auto;
+} */
