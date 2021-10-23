@@ -1203,11 +1203,13 @@ h4 {
 }
 
 .info h1{
+    color: black!important;
     margin-top: 0;
     text-align: center;
 }
 
 .info p {
+    color: black!important;
     text-align: center;
     font-size: 1.5em;
 }
@@ -1223,10 +1225,17 @@ h4 {
     font-size: 1.1em;
 }
 
+.contact-details__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 .bloc-button {
     width: 200px!important;
     margin: auto;
+    border-radius: 30px!important;
 }
 
 .button-contact {
@@ -1234,6 +1243,41 @@ h4 {
     padding-bottom: 20px;
 }
 
+#name {
+    max-width: 220px;
+}
+
+#email {
+    max-width: 230px;
+}
+
+#know-where {
+    max-width: 230px;
+}
+
+.message {
+    max-width: 500px;
+}
+
+.coordonnees {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.coordonnees h2 {
+    margin: 0!important;
+    align-self: center;
+    color: black!important;
+}
+
+.coordonnees p {
+        font-size: 1.3em;
+        margin: 0!important;
+        color: black!important;
+}
 
 @media all and (min-width:748px) {
 
@@ -1258,10 +1302,7 @@ footer .container {
     max-width: 100%!important;
 }
 
-.contact p {
-    font-size: 1.3em;
-    padding-top: 40px;
-}
+
 
 .contact-team {
     color: black!important;
